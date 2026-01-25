@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            position:absolute;
+            top: 25%;
+            right: 35%;
+        }
+        .box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 70vh;
+        }
+#grey{
+    background-color: gray;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+
+
+}
+
+#white{
+    background-color: white;
+     border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+#blue{
+    background-color: blue;
+     border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+#yellow{
+    background-color: yellow;
+     border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Color Scheme Switcher</h1>
+        <div class="box">
+        <div class="button" id="grey"></div>
+        <div class="button" id="white"></div>
+        <div class="button" id="blue"></div>
+        <div class="button" id="yellow"></div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
